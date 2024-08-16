@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: 'work Sans', Arial, Helvetica, sans-serif;
+            /* 
+            Medias absolutas
+            cm, mm,in, px, pt, pc
+            
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: 450;
+            font-style: italic;
+            text-decoration: underline;
+            /* lighter normal bold bolder
+                podemos definir o peso da fonte também através de numeros 100 - 900
+            */
+        }
+
+        h1, h2{
+            
+            /* shorthand font
+            
+                - font-style -> font-weight -> font-size -> font-family 
+                
+                font-family: 'work Sans', sans-serif;
+                font-weight:bolder;
+                font-size: 3em;
+                font-style: italic;
+
+            */
+            font:italic bolder 3em 'work sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas delectus temporibus architecto optio aperiam quod laborum quaerat eaque officia quam nobis doloribus, totam iure porro blanditiis quisquam eveniet possimus at!Lorem</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi unde minima, laboriosam dolorem nemo autem et ut blanditiis, accusantium animi, magnam rerum fugiat distinctio quas deleniti quo ad ipsa nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati delectus doloremque odio quibusdam sint facilis, cupiditate voluptatibus atque possimus consectetur cumque voluptates blanditiis nulla minus quo id, deleniti ipsam!</p>
+    <h2>Subtítulo do exercicio</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, et quaerat voluptate unde, odio voluptatum adipisci odit eos itaque aperiam consequatur incidunt quod alias molestias necessitatibus officia beatae, similique nostrum.</p>
+    
+</body>
+</html>
